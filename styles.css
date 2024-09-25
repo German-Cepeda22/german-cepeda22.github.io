@@ -46,7 +46,7 @@ p {
     color: #555;
     font-family: sourcecodepro, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', ibmplexmono, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 14px;
     line-height: 1.5;
     margin: 0;
     text-wrap: pretty;
@@ -114,3 +114,28 @@ li{
     gap: 4px;
     padding: .2rem.6rem;
 }
+@media (max-width: 700px) {
+    main {
+        padding: 2px;
+        margin: auto;
+        width: 100%;
+        height: 100vh
+    }
+    section {
+        margin-bottom: 30px;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .info {
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+        text-align: center;
+    }
+    figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+} 
