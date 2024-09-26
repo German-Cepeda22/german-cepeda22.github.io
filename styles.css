@@ -118,7 +118,7 @@ li{
         padding: 2px;
         margin: auto;
         width: 100%;
-        height: 100vh
+        height: 100vh;
     }
     section {
         margin-bottom: 30px;
@@ -141,8 +141,12 @@ li{
         font-size: 10px;
     }
     .educacion {
+        font-size: 14px; ;
         justify-content: space-between;
         align-items: center;
 
     }
+    ul {
+        margin-bottom: 20px;
+    };
 } 
